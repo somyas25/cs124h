@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: right;
+  padding: 0 5em;
+  background-color: #c0c0d3;
+  height: 3.5em;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav-button,
+.nav-button a {
+  background-color: transparent;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  align-self: flex-start;
+  cursor: pointer;
+  font-size: medium;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  color: white;
+  background-color: #112a67;
+  text-decoration: none; /* Prevent underline on hover */
+}
+
+.nav-button.active {
+  background-color: hsl(223, 44%, 47%);
+  text-underline-offset: 8px;
+  color: white;
+}
+
+.home-button {
+  align-self: left;
+  background-color: #112a67;
+  color: white;
+}
