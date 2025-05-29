@@ -23,17 +23,17 @@ export default function Home() {
             </div>
             <div className={styles.greyBox}>
               <h2>Upcoming Events</h2>
-                <div className={styles.whiteBoxMini}>
-                  <p className={styles.eventBoxText}>This is the mini event 1 white box.</p>
-                </div>
+                // <div className={styles.whiteBoxMini}>
+                //   <p className={styles.eventBoxText}>This is the mini event 1 white box.</p>
+                // </div>
 
-                <div className={styles.whiteBoxMini}>
-                    <p className={styles.eventBoxText}>This is the mini event 2 white box.</p>
-                </div>
+                // <div className={styles.whiteBoxMini}>
+                //     <p className={styles.eventBoxText}>This is the mini event 2 white box.</p>
+                // </div>
 
-                <div className={styles.whiteBoxMini}>
-                    <p className={styles.eventBoxText}>This is the mini event 3 white box.</p>
-                </div>
+                // <div className={styles.whiteBoxMini}>
+                //     <p className={styles.eventBoxText}>This is the mini event 3 white box.</p>
+                // </div>
             </div>
           </div>
         </main>
