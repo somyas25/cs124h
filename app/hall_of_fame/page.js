@@ -11,55 +11,78 @@ const projectsData = {
     {
       id: 9,
       title: "UIUC: The Chill Pack: Group 16",
-      members: ["Alice", "Charlie", "David"],
+      members: [
+        "Luyao Wang",
+        "Ruixi Zhang",
+        "Yuxiang Li",
+        "PMs: Keshat Mehra and Aasiya Menon",
+      ],
       description:
         "Group 16 developed a pixel-style college life simulation game called 'UIUC: The Chill Pack' using the Godot engine. The game includes various mini-games, such as a platformer, a clicker game simulating assignment work, and a space shooter. The goal is to overcome obstacles and challenges presented by different parts of the school map in order to graduate.",
-      githubUrl: "https://github.com/your-repo/alpha",
+      githubUrl: "https://github.com/CS196Illinois/Group16-SP25",
       imageUrl: "/images/group_16.png",
     },
     {
       id: 10,
       title: "Grocery Store Shopper Analysis: Group 4",
-      members: ["Eve", "Frank", "Grace"],
+      members: [
+        "Nikitha S.",
+        "Mihir V.",
+        "PMs: Anujay Surana and Madhav Menon",
+      ],
       description:
         "Group 4 developed a 'Grocery Store Shopper Analysis' project aimed at understanding customer demographics in a retail environment. Their work focused on using computer vision techniques to identify gender, age, and emotion from shopper images. They implemented their solution using deep learning models, specifically ResNet18, and utilized frameworks like PyTorch and OpenCV for tasks such as face detection and classification. This analysis could provide valuable insights for optimizing store layouts or marketing strategies.",
-      githubUrl: "https://github.com/your-repo/ecotrack",
+      githubUrl: "https://github.com/CS196Illinois/Group4-SP25",
       imageUrl: "/images/group_4.png",
     },
     {
       id: 11,
       title: "Trajecta: Group 14",
-      members: ["Eve", "Frank", "Grace"],
+      members: ["Francisco Jimenez", "PM: Jack Wang"],
       description:
         "Group 14 developed 'Trajecta,' a project focused on modeling orbital simulations of satellites within the solar system. Their technical stack includes Python and JavaScript for the backend, handling the solar system model and physics, with accuracy ensured by sourcing software from the NASA JPL database. The frontend is built using React, CSS, and HTML to create a user-friendly interface for the simulation. Future goals involve integrating n-body physics for enhanced accuracy and allowing users to add custom satellites with specific parameters.",
-      githubUrl: "https://github.com/your-repo/ecotrack",
+      githubUrl: "https://github.com/CS196Illinois/Group14-SP25",
       imageUrl: "/images/group_14.png",
     },
     {
       id: 12,
       title: "Quad Quest: Group 2",
-      members: ["Eve", "Frank", "Grace"],
+      members: [
+        "Paul Lannuzel",
+        "Eddie Ouyang",
+        "Molly Chu",
+        "PMs: Yaswant Ejjagiri, Esha Mujumdar",
+      ],
       description:
         "Group 2 developed 'Quad Quest,' a two-part application designed to help UIUC students manage assignments and boost motivation. The first part functions as a centralized task tracker, gathering assignments from various platforms like Canvas, Gradescope, and PrairieLearn. The second part incorporates a game element, a 2D map of campus town where completing tasks earns in-game currency to upgrade buildings and unlock features. The technical stack includes React.js and Next.js for the frontend, Python for parsing functions, and Supabase for the backend, with React Leaflet used for the game's map.",
-      githubUrl: "https://github.com/your-repo/ecotrack",
+      githubUrl: "https://github.com/CS196Illinois/Group2-SP25",
       imageUrl: "/images/group_2.png",
     },
     {
       id: 13,
       title: "SPIRAL.AI: Group 5",
-      members: ["Eve", "Frank", "Grace"],
+      members: [
+        "Ahmad Dayeh",
+        "Navika Tewari",
+        "PMs: Ishaan Chamoli, Pras Bairwa",
+      ],
       description:
         "Group 5 developed 'SPIRAL.AI,' a galaxy classifier designed to distinguish between spiral and non-spiral galaxies based on their morphological characteristics. They built and trained a Convolutional Neural Network (CNN) model using Python, Keras, and TensorFlow for image classification. The project also features an interactive web interface created with Streamlit, which allows for real-time image uploads and classification.",
-      githubUrl: "https://github.com/your-repo/ecotrack",
+      githubUrl: "https://github.com/CS196Illinois/Group5-SP25",
       imageUrl: "/images/group_5.png",
     },
     {
       id: 14,
       title: "SiteCraft.AI: Group 1",
-      members: ["Eve", "Frank", "Grace"],
+      members: [
+        "Madison Lee",
+        "Chetan Tripaathi",
+        "Hannah Ip",
+        "PMs: Anshi Mathur, Divvyam Arora",
+      ],
       description:
         "Group 1 developed 'SiteCraft.AI', a personal website generator that automates the creation of professional websites from PDF resumes. This platform streamlines personal branding for job seekers by extracting text from uploaded resumes and generating a basic HTML website. Their technical implementation leverages Node.js for the backend, utilizing Express.js for routing, Multer for file uploads, and pdfreader to extract text from PDFs. The system also integrates the OpenAI SDK to parse and structure resume data into JSON format, which then programmatically generates the responsive personal websites.",
-      githubUrl: "https://github.com/your-repo/ecotrack",
+      githubUrl: "https://github.com/CS196Illinois/Group1-SP25",
       imageUrl: "/images/group_1.png",
     },
   ],
