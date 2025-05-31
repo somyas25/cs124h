@@ -52,6 +52,11 @@ const Navbar = () => {
             Timeline
           </button>
         </Link>
+        <Link href="https://typhoon-lifter-1e1.notion.site/CS124H-Resource-Vault-1adbec204dee8026a3ccd51e7e260f04">
+          <button className={styles["nav-button"]}>
+            Resources
+          </button>
+        </Link>
       </div>
     </nav>
   );
