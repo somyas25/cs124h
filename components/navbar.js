@@ -12,7 +12,11 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles["nav-items"]}>
         <Link href="/">
-          <button className={`${styles["nav-button"]} ${styles["home-button"]} ${pathname === "/"}`}>
+          <button
+            className={`${styles["nav-button"]} ${styles["home-button"]} ${
+              pathname === "/"
+            }`}
+          >
             Home
           </button>
         </Link>
@@ -23,6 +27,15 @@ const Navbar = () => {
             }`}
           >
             ⭐ Hall Of Fame ⭐
+          </button>
+        </Link>
+        <Link href="/resources">
+          <button
+            className={`${styles["nav-button"]} ${
+              pathname === "/resources" ? styles.active : ""
+            }`}
+          >
+            ⭐ Resources ⭐
           </button>
         </Link>
         <Link href="/course_staff">
