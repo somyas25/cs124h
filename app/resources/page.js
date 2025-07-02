@@ -10,6 +10,15 @@ import { NoteIcon } from "@phosphor-icons/react";
 const lectureContentData = {
   "Blog Posts": [
     {
+      id: 13,
+      title: "Vision Transformers: A Friendly Introduction",
+      members: ["Yash Ejjagiri"],
+      description:
+        "This blog introduces Vision Transformers (ViTs), which apply transformer models from natural language processing to image classification tasks. Unlike CNNs that focus on local features, ViTs divide images into patches and use self-attention to capture global context. The article explains the ViT architecture step by step, compares it with CNNs, and covers popular variants like DeiT, Swin, and BEiT that improve data efficiency and scalability. It also includes PyTorch examples for fine-tuning and training ViTs, showing how they can be applied effectively in real-world computer vision projects.",
+      githubUrl: "https://medium.com/@yse2/vision-transformers-a-friendly-introduction-74270159381a",
+      imageUrl: "https://placehold.co/600x400/cccccc/ffffff?text=Blog Post",
+    },
+    {
       id: 10,
       title:
         "🚀Getting Started with Go (Golang): A Beginner-Friendly Guide for CS Freshmen",
@@ -36,15 +45,6 @@ const lectureContentData = {
       description:
         "This blog explains how to build software using large language models like GPT-4 through an iterative process called prompt engineering. Instead of expecting perfect code from a single prompt, the author highlights the importance of treating the AI as a collaborative coding partner, refining and improving the code step by step. A case study of a weather alert app shows how each prompt builds on the last to create a functional tool. The post also shares useful prompting techniques and best practices to help developers get clearer and more reliable code.",
       githubUrl: "https://medium.com/@ravegerplaz/from-idea-to-app-the-iterative-process-of-coding-with-language-models-43f8eea84d2d",
-      imageUrl: "https://placehold.co/600x400/cccccc/ffffff?text=Blog Post",
-    },
-    {
-      id: 13,
-      title: "Vision Transformers: A Friendly Introduction",
-      members: ["Yash Ejjagiri"],
-      description:
-        "This blog introduces Vision Transformers (ViTs), which apply transformer models from natural language processing to image classification tasks. Unlike CNNs that focus on local features, ViTs divide images into patches and use self-attention to capture global context. The article explains the ViT architecture step by step, compares it with CNNs, and covers popular variants like DeiT, Swin, and BEiT that improve data efficiency and scalability. It also includes PyTorch examples for fine-tuning and training ViTs, showing how they can be applied effectively in real-world computer vision projects.",
-      githubUrl: "https://medium.com/@yse2/vision-transformers-a-friendly-introduction-74270159381a",
       imageUrl: "https://placehold.co/600x400/cccccc/ffffff?text=Blog Post",
     },
     {
