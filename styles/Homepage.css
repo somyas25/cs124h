@@ -65,6 +65,19 @@
   text-align: center;
 }
 
+.about-content h3 {
+  font-size: clamp(1rem, 4vw, 1.75rem);
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.about-content h4 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  margin-bottom: 1rem;
+  color: #ecb557;
+}
+
 .about-content p {
   font-size: clamp(1rem, 2.5vw, 1.125rem);
   color: white;
@@ -193,4 +206,8 @@
   .about-section {
     padding: 4rem 20rem;
   }
+}
+
+.imp-text {
+  color: rgb(228, 76, 76);
 }
