@@ -107,71 +107,63 @@ const lectureContentData = {
       members: ["Shreya Perumalla", "Sahana Hariharan"],
       videoUrl:
         "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+      imageUrl: "/images/video-thumbnails/BERTopic.png",
     },
     {
       id: 2,
       title: "Time 101: How computers deal with time",
       members: ["Pritika Aggarwal", "Hazel Lu"],
       videoUrl:
-        "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+        "https://drive.google.com/file/d/1zjv1BKrGP_twvhV2kfNqicJni5I-DB0a/view?usp=sharing",
+      imageUrl: "/images/video-thumbnails/Time101.png",
     },
     {
       id: 3,
       title: "Backpropagation (Mathematical Deep-Dive)",
       members: ["Madhav Menon"],
       videoUrl:
-        "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+        "https://drive.google.com/file/d/1fd7ZiEELnCfgxDFa4UnNygnVbdOo5Uir/view?usp=sharing",
+      imageUrl: "/images/video-thumbnails/backpropogation.png",
     },
     {
       id: 4,
       title: "Retrieval-Augmented Generation (RAG)",
       members: ["Kavya Sachdeva"],
       videoUrl:
-        "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+        "https://drive.google.com/file/d/1H_TdgL49J9F5V3HSKPx9Y4DjfXMBo2tR/view?usp=sharing",
+      imageUrl: "/images/video-thumbnails/RAG.png",
     },
     {
-      id: 3,
-      title: "Backpropagation (Mathematical Deep-Dive)",
-      members: ["Madhav Menon"],
+      id: 5,
+      title: "Introduction to Three.js",
+      members: ["Anshi Mathur"],
       videoUrl:
-        "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+        "https://drive.google.com/file/d/1K8OZ4yFVpSOtty4Qhze67srDYEr7hQHs/view?usp=sharing",
+      imageUrl: "/images/video-thumbnails/three_js.png",
     },
     {
-      id: 3,
-      title: "Backpropagation (Mathematical Deep-Dive)",
-      members: ["Madhav Menon"],
+      id: 6,
+      title: "Advanced Reinforcement Learning",
+      members: ["James Cho & Jack Wang"],
       videoUrl:
-        "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+        "https://drive.google.com/file/d/1VGyeAWFngx6RHdCg9Xiof56633oMlfd3/view?usp=sharing",
+      imageUrl: "/images/video-thumbnails/advanced_reinforcement_learning.png",
     },
     {
-      id: 3,
-      title: "Backpropagation (Mathematical Deep-Dive)",
-      members: ["Madhav Menon"],
+      id: 7,
+      title: "Post-Quantum Cryptography",
+      members: ["Shrest Das"],
       videoUrl:
-        "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+        "https://drive.google.com/file/d/1D0R2IHgwm4EGZ15N08S97ryMP22wresq/view?usp=sharing",
+      imageUrl: "/images/video-thumbnails/cryptography.png",
     },
     {
-      id: 3,
-      title: "Backpropagation (Mathematical Deep-Dive)",
-      members: ["Madhav Menon"],
+      id: 8,
+      title: "TinyML: Intelligence on Microcontrollers",
+      members: ["Divvyam Arora"],
       videoUrl:
-        "https://drive.google.com/file/d/1ffB3ANoFruCR2ZtyYKYi4N_kLYQ-eij-/view?usp=sharing",
-      imageUrl:
-        "https://placehold.co/600x400/cccccc/ffffff?text=Technical Presentation",
+        "https://drive.google.com/file/d/1-ZxUAylKCH40GmCfiWsubv7sTfW20jim/view?usp=sharing",
+      imageUrl: "/images/video-thumbnails/TinyML.png",
     },
   ],
 };
@@ -259,25 +251,26 @@ export default function HallOfFamePage() {
       <main className={styles.mainContent}>
         <div className={styles.resourceSection}>
           <div className={styles.header}>
-            <h1 className={styles.title}>Blog Posts</h1>
+            <h1 className={styles.title}>Lecture Videos</h1>
           </div>
+
           <div className={styles.projectGrid}>
-            {blogPosts.map((project) => (
-              <BlogPostCard key={project.id} project={project} />
+            {staffPresentations.map((project) => (
+              <VideoCard key={project.id} project={project} />
             ))}
           </div>
         </div>
 
         <div className={styles.resourceSection}>
           <div className={styles.header}>
-            <h1 className={styles.title}>Staff Technical Presentations</h1>
+            <h1 className={styles.title}>Blog Posts</h1>
           </div>
-        </div>
 
-        <div className={styles.projectGrid}>
-          {staffPresentations.map((project) => (
-            <VideoCard key={project.id} project={project} />
-          ))}
+          <div className={styles.projectGrid}>
+            {blogPosts.map((project) => (
+              <BlogPostCard key={project.id} project={project} />
+            ))}
+          </div>
         </div>
       </main>
     </div>
