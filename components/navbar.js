@@ -71,7 +71,7 @@ const Navbar = () => {
                 pathname === "/resources" ? styles.active : ""
               }`}
             >
-              ⭐ Resources ⭐
+              Resources
             </button>
           </Link>
           <Link href="/course_staff">
@@ -140,7 +140,7 @@ const Navbar = () => {
                     pathname === "/resources" ? styles.active : ""
                   }`}
                 >
-                  ⭐ Resources ⭐
+                  Resources
                 </button>
               </Link>
               <Link href="/course_staff" onClick={handleLinkClick}>

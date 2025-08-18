@@ -47,6 +47,24 @@ h2 {
   font-style: normal;
 }
 
+h3 {
+  color: #070707;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+h4 {
+  color: #070707;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+
+
 button {
   color: #f9f9f9;
   font-family: "Inter", sans-serif;

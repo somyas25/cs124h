@@ -46,6 +46,54 @@ export default function Home() {
               allowFullScreen
             ></iframe>
           </div>
+
+          <br></br>
+          <br></br>
+
+          <hr />
+          <br></br>
+          <br></br>
+
+          <h2>How To Register</h2>
+          <br />
+          <h3>Step 1:</h3>
+          <h4>If You’re a James Scholar:</h4>
+          <p>
+            If you are a James Scholar or are taking the course for honors
+            credit, you should complete an Honors Credit Learning Agreement
+            (HCLA) form. On your HCLA, state that you are completing the extra
+            work for CS 124 honors credit.{" "}
+            <span className="imp-text">Do not enroll in CS 199 124</span> if you
+            are a James Scholar.
+          </p>
+          <br />
+          <br />
+          <h4>If You’re Not a James Scholar:</h4>
+          <p>
+            If you are not a James Scholar or not taking the course for honors
+            credit, you should enroll in CS 199 124. The course is zero credit
+            hours and S (satisfactory) / U (unsatisfactory) graded, but you will
+            need to participate to earn the S grade!
+          </p>
+
+          <br />
+          <br />
+
+          <h3>Step 2:</h3>
+          <p>
+            Please fill in the enrollment confirmation form (will be linked here
+            when available).{" "}
+            <span className="imp-text">
+              Failure to fill in the enrollment confirmation form will result in
+              an unsatisfactory grade in the course.
+            </span>
+          </p>
+
+          <br />
+          <br />
+
+          <h3>Step 3:</h3>
+          <p>Join the Discord (will be linked here when available).</p>
         </div>
       </section>
     </div>
