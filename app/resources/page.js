@@ -272,6 +272,27 @@ export default function HallOfFamePage() {
             ))}
           </div>
         </div>
+
+        <div className={styles.resourceVault}>
+          <div className={styles.header}>
+            <h1 className={styles.title}>Resource Vault</h1>
+            <p className={styles.vaultDescription}>
+              {" "}
+              The CS124 Honors resource vault is a Notion page created to keep
+              track of useful external resources that Project Managers and their
+              students have accumulated in various subtopics over the semesters.
+              This Notion page is publicly accessible{" "}
+              <a
+                href="https://typhoon-lifter-1e1.notion.site/CS124H-Resource-Vault-1adbec204dee8026a3ccd51e7e260f04"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#0070f3", textDecoration: "underline" }}
+              >
+                here.
+              </a>
+            </p>
+          </div>
+        </div>
       </main>
     </div>
   );
