@@ -5,6 +5,8 @@ import dynamic from "next/dynamic";
 
 import NavbarWrapper from "../components/navbarWrapper";
 
+
+// add a button under the description that says "Syllabus" and links to the syllabus page
 export default function Home() {
   return (
     <div>
@@ -16,6 +18,22 @@ export default function Home() {
             Illinois' premier freshman honors class run by students, for
             students.
           </p>
+          <div className="button-container">
+            <a 
+              href="https://docs.google.com/document/d/1ymXgTRhm6I0bClRsU2X8kC4IvOF-kzIcOPiNUwxlkGQ/edit?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="syllabus-button"
+            >
+              Syllabus
+            </a>
+            <a 
+              href="#register" 
+              className="register-button"
+            >
+              Register Now
+            </a>
+          </div>
         </div>
       </main>
 
@@ -54,7 +72,7 @@ export default function Home() {
           <br></br>
           <br></br>
 
-          <h2>How To Register</h2>
+          <h2 id="register">How To Register</h2>
           <br />
           <h3>Step 1:</h3>
           <h4>If You’re a James Scholar:</h4>
