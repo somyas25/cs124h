@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 
 import NavbarWrapper from "../components/navbarWrapper";
 
+// add a button under the description that says "Syllabus" and links to the syllabus page
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,19 @@ export default function Home() {
             Illinois' premier freshman honors class run by students, for
             students.
           </p>
+          <div className="button-container">
+            <a
+              href="https://docs.google.com/document/d/1ymXgTRhm6I0bClRsU2X8kC4IvOF-kzIcOPiNUwxlkGQ/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="syllabus-button"
+            >
+              Syllabus
+            </a>
+            <a href="#register" className="register-button">
+              Register Now
+            </a>
+          </div>
         </div>
       </main>
 
@@ -46,6 +60,71 @@ export default function Home() {
               allowFullScreen
             ></iframe>
           </div>
+
+          <br></br>
+          <br></br>
+
+          <hr />
+          <br></br>
+          <br></br>
+
+          <h2 id="register">How To Register</h2>
+          <br />
+          <h3>Step 1:</h3>
+          <h4>If You’re a James Scholar:</h4>
+          <p>
+            If you are a James Scholar or are taking the course for honors
+            credit, you should complete an Honors Credit Learning Agreement
+            (HCLA) form. On your HCLA, state that you are completing the extra
+            work for CS 124 honors credit.{" "}
+            <span className="imp-text">Do not enroll in CS 199 124</span> if you
+            are a James Scholar.
+          </p>
+          <br />
+          <br />
+          <h4>If You’re Not a James Scholar:</h4>
+          <p>
+            If you are not a James Scholar or not taking the course for honors
+            credit, you should enroll in CS 199 124 (CRN: 67084) on
+            self-service. The course is zero credit hours and S (satisfactory) /
+            U (unsatisfactory) graded, but you will need to participate to earn
+            the S grade!
+          </p>
+
+          <br />
+          <br />
+
+          <h3>Step 2:</h3>
+          <p>
+            Please fill in the enrollment confirmation form:{" "}
+            <a href="https://forms.gle/86sNBypWGiVsjtFn6">
+              https://forms.gle/86sNBypWGiVsjtFn6.
+            </a>{" "}
+            <span className="imp-text">
+              Failure to fill in the enrollment confirmation form will result in
+              an unsatisfactory grade in the course.
+            </span>
+          </p>
+
+          <br />
+          <br />
+
+          <h3>Step 3:</h3>
+          <p>
+            Join the Discord:{" "}
+            <a href="https://discord.com/invite/YMtdnBdsup">
+              https://discord.com/invite/YMtdnBdsup
+            </a>
+          </p>
+
+          <br />
+          <br />
+          <hr />
+          <br />
+          <br />
+          <p>
+            Questions? Contact dhanish2@illinois.edu or somyas3@illinois.edu
+          </p>
         </div>
       </section>
     </div>

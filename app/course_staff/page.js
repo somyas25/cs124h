@@ -14,25 +14,24 @@ export default function Home() {
     });
   }, []);
 
-  const openModal = (member) => setSelectedMember(member);
+  const openModal = (memberId) => setSelectedMember(memberId);
   const closeModal = () => setSelectedMember(null);
 
   if (staffMembers.length === 0) return null;
 
+  const selectedMemberData = staffMembers.find(member => member.id === selectedMember);
+
   return (
-    <div className="main-content">
+    <div className="page-container">
       <Navbar />
-      <main>
-        <h1
-          className={`title ${selectedMember ? "opacity-20" : "opacity-100"}`}
-        >
-          Our Staff
-        </h1>
-        <div
-          className={`staff-card-container ${
-            selectedMember ? "opacity-20" : "opacity-100"
-          }`}
-        >
+      <main className="main-content">
+        <div className="header">
+          <h1 className={`title ${selectedMember ? "opacity-20" : "opacity-100"}`}>
+            Our Staff
+          </h1>
+        </div>
+        
+        <div className={`staff-card-container ${selectedMember ? "opacity-20" : "opacity-100"}`}>
           {staffMembers.map((member) => (
             <div
               className="staff-card-box"
@@ -47,36 +46,42 @@ export default function Home() {
           ))}
         </div>
 
-        {selectedMember && (
+        {selectedMember && selectedMemberData && (
           <div className="popup" onClick={closeModal}>
             <div className="popup-content" onClick={(e) => e.stopPropagation()}>
               <span className="close" onClick={closeModal}>
                 &times;
               </span>
-              {staffMembers
-                .filter((member) => member.id === selectedMember)
-                .map((member) => (
-                  <React.Fragment key={member.id}>
-                    <div className="image-popup">
-                      <img src={member.image} alt={member.name} />
-                    </div>
-                    <div className="text-content">
-                      <h2>{member.name}</h2>
-                      <p className="role">{member.role}</p>
+              
+              <div className="image-popup">
+                <img src={selectedMemberData.image} alt={selectedMemberData.name} />
+              </div>
+              
+              <div className="text-content">
+                <h2>{selectedMemberData.name}</h2>
+                <p className="role">{selectedMemberData.role}</p>
 
-                      <div className="label">Year:</div>
-                      <div>{member.year || "N/A"}</div>
+                <div className="staff-details">
+                  <div className="detail-item">
+                    <div className="label">Year:</div>
+                    <div className="value">{selectedMemberData.year || "N/A"}</div>
+                  </div>
 
-                      <div className="label">Major:</div>
-                      <div>{member.major || "N/A"}</div>
+                  <div className="detail-item">
+                    <div className="label">Major:</div>
+                    <div className="value">{selectedMemberData.major || "N/A"}</div>
+                  </div>
 
-                      <div className="label">Semesters as PM:</div>
-                      <div>{member.semesters || "N/A"}</div>
+                  <div className="detail-item">
+                    <div className="label">Semesters as PM:</div>
+                    <div className="value">{selectedMemberData.semesters || "N/A"}</div>
+                  </div>
+                </div>
 
-                      <div className="bio">{member.bio}</div>
-                    </div>
-                  </React.Fragment>
-                ))}
+                <div className="bio-section">
+                  <div className="bio">{selectedMemberData.bio}</div>
+                </div>
+              </div>
             </div>
           </div>
         )}

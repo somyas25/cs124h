@@ -10,6 +10,11 @@
   padding: 2rem;
 }
 
+.resourceSection {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
 @media (min-width: 768px) {
   .mainContent {
     padding: 2.5rem;
