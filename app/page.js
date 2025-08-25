@@ -39,7 +39,7 @@ export default function Home() {
             <iframe
               width="100%"
               height="400"
-              src="https://www.youtube.com/embed/eIJvoSkfCGc"
+              src="https://www.youtube.com/embed/9AiOHVYOYNk?si=ce5BFqwtK4au4XTU"
               title="CS124 Honors Overview"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
