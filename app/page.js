@@ -5,7 +5,6 @@ import dynamic from "next/dynamic";
 
 import NavbarWrapper from "../components/navbarWrapper";
 
-
 // add a button under the description that says "Syllabus" and links to the syllabus page
 export default function Home() {
   return (
@@ -19,18 +18,15 @@ export default function Home() {
             students.
           </p>
           <div className="button-container">
-            <a 
-              href="https://docs.google.com/document/d/1ymXgTRhm6I0bClRsU2X8kC4IvOF-kzIcOPiNUwxlkGQ/edit?usp=sharing" 
-              target="_blank" 
+            <a
+              href="https://docs.google.com/document/d/1ymXgTRhm6I0bClRsU2X8kC4IvOF-kzIcOPiNUwxlkGQ/edit?usp=sharing"
+              target="_blank"
               rel="noopener noreferrer"
               className="syllabus-button"
             >
               Syllabus
             </a>
-            <a 
-              href="#register" 
-              className="register-button"
-            >
+            <a href="#register" className="register-button">
               Register Now
             </a>
           </div>
@@ -89,9 +85,10 @@ export default function Home() {
           <h4>If You’re Not a James Scholar:</h4>
           <p>
             If you are not a James Scholar or not taking the course for honors
-            credit, you should enroll in CS 199 124. The course is zero credit
-            hours and S (satisfactory) / U (unsatisfactory) graded, but you will
-            need to participate to earn the S grade!
+            credit, you should enroll in CS 199 124 (CRN: 67084) on
+            self-service. The course is zero credit hours and S (satisfactory) /
+            U (unsatisfactory) graded, but you will need to participate to earn
+            the S grade!
           </p>
 
           <br />
@@ -99,8 +96,10 @@ export default function Home() {
 
           <h3>Step 2:</h3>
           <p>
-            Please fill in the enrollment confirmation form (will be linked here
-            when available).{" "}
+            Please fill in the enrollment confirmation form:{" "}
+            <a href="https://forms.gle/86sNBypWGiVsjtFn6">
+              https://forms.gle/86sNBypWGiVsjtFn6.
+            </a>{" "}
             <span className="imp-text">
               Failure to fill in the enrollment confirmation form will result in
               an unsatisfactory grade in the course.
@@ -111,7 +110,21 @@ export default function Home() {
           <br />
 
           <h3>Step 3:</h3>
-          <p>Join the Discord (will be linked here when available).</p>
+          <p>
+            Join the Discord:{" "}
+            <a href="https://discord.com/invite/YMtdnBdsup">
+              https://discord.com/invite/YMtdnBdsup
+            </a>
+          </p>
+
+          <br />
+          <br />
+          <hr />
+          <br />
+          <br />
+          <p>
+            Questions? Contact dhanish2@illinois.edu or somyas3@illinois.edu
+          </p>
         </div>
       </section>
     </div>
