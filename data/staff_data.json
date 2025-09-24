@@ -1,334 +1,674 @@
 {
   "data": [
     {
-      "id": 35,
-      "name": "Dhanish Natarajan",
-      "role": "Course Lead",
-      "image": "/images/staff-images/Dhanish.jpg",
-      "year": "Sophomore",
-      "major": "CS+Statistics",
-      "semesters": "3",
-      "bio": ""
+      "semester": "Fall 2025",
+      "staff": [
+        {
+          "id": 35,
+          "name": "Dhanish Natarajan",
+          "role": "Course Lead",
+          "image": "/images/staff-images/Dhanish.jpg",
+          "year": "Sophomore",
+          "major": "CS+Statistics",
+          "semesters": "3",
+          "bio": ""
+        },
+        {
+          "id": 36,
+          "name": "Somya Srivastava",
+          "role": "Course Lead",
+          "image": "/images/staff-images/Somya.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "3",
+          "bio": ""
+        },
+        {
+          "id": 37,
+          "name": "Kedar Manda",
+          "role": "Head Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Junior",
+          "major": "CS+Philosophy",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 3,
+          "name": "Medhansh Garg",
+          "role": "Web Developer",
+          "image": "/images/staff-images/Medhansh.png",
+          "year": "Junior",
+          "major": "Computer Engineering",
+          "semesters": "1",
+          "bio": "Passionate about cyber security and web development. I enjoy all things tech and love to play sports and watch movies."
+        },
+        {
+          "id": 4,
+          "name": "Anujay Surana",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Anujay.jpg",
+          "year": "Sophomore",
+          "major": "Math+CS+MCB",
+          "semesters": "NA",
+          "bio": "Big United Fan. Serial Drinker(Water)"
+        },
+        {
+          "id": 5,
+          "name": "Davis Zhang",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Davis.jpg",
+          "year": "Senior",
+          "major": "CS",
+          "semesters": "NA",
+          "bio": "Hello everyone! My name is Davis. I'm a senior studying Computer Science. Outside of classes and research, I love playing tennis and basketball. Feel free to reach out if you have any questions about school, or just want to chat! "
+        },
+        {
+          "id": 10,
+          "name": "Ishaan Chamoli",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Ishaan.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "NA",
+          "bio": "CS sophomore building AI apps who can't wait to launch his own startup, apply to YC, and loves Sports Climbing - the one place where it's socially acceptable for engineers to face the wall and not interact with anyone ig :')"
+        },
+        {
+          "id": 11,
+          "name": "Jack Wang",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Jack.jpg",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": "Professional sleeper, occationally code"
+        },
+        {
+          "id": 12,
+          "name": "James Cho",
+          "role": "Project Manager",
+          "image": "/images/staff-images/James.jpg",
+          "year": "",
+          "major": "Statistics and Psychology + CS Minor",
+          "semesters": "",
+          "bio": "Hi, I am a junior majoring in Statistics and Psychology, and minor in Computer Science. I am currently looking for summer internship opportunities 2024-2025. Thank you for lsitening."
+        },
+        {
+          "id": 14,
+          "name": "Kavya Sachdeva",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Kavya.jpg",
+          "year": "Sophomore",
+          "major": "CS+GGIS",
+          "semesters": "3",
+          "bio": "I\u2019m passionate about building software, watching every F1 race, and savoring great food."
+        },
+        {
+          "id": 15,
+          "name": "Keshat Mehra",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Keshat.jpg",
+          "year": "Junior",
+          "major": "Mechanical Engineering",
+          "semesters": "",
+          "bio": "Junior studying Mechanical Engineering with minors in CS & Business. I love playing badminton!"
+        },
+        {
+          "id": 17,
+          "name": "Naina Singh",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Naina.jpg",
+          "year": "Sophomore",
+          "major": "Math+CS",
+          "semesters": "",
+          "bio": "Hi! I'm Naina, a sophomore majoring in Computer Science and Statistics, with a strong interest in the intersection of CS and Finance. This fall will be my second semester as a Project Manager for CS 124 Honors. I'm excited to meet everyone and collaborate on new ideas!"
+        },
+        {
+          "id": 22,
+          "name": "Pritika Aggarwal",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Pritika.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "",
+          "bio": "CS major who has an unhealthy obsession with cats :P "
+        },
+        {
+          "id": 25,
+          "name": "Roma Chandra",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Roma.jpg",
+          "year": "Junior",
+          "major": "Math+CS",
+          "semesters": "",
+          "bio": "Hi! My name is Roma and I'm a junior majoring in Mathematics & Computer Science and minoring in business. I love cooking, going to the gym, and reading. I also love exploring new cafes/study spots around campus :) super excited to be a PM for 124H this year and to meet everyone!"
+        },
+        {
+          "id": 26,
+          "name": "Sahana Hariharan",
+          "role": "Project Manager",
+          "image": "/images/staff-images/SahanaH.jpg",
+          "year": "Sophomore",
+          "major": "CS+Statistics",
+          "semesters": "",
+          "bio": "Hi! My name is Sahana, and I'm a sophomore studying Statistics + Computer Science. My favorite coding languages are Python and C++, and some of my hobbies include painting and watching movies with my friends. "
+        },
+        {
+          "id": 29,
+          "name": "Shreya Perumalla",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Shreya.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "",
+          "bio": "sophomore in CS who loves to dance, cook, and drink insane amounts of coffee :)"
+        },
+        {
+          "id": 34,
+          "name": "Yash Jain",
+          "role": "Project Manager",
+          "image": "/images/staff-images/YashJ.jpg",
+          "year": "Senior",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Senior, Computer Science, Poker and Cricket"
+        },
+        {
+          "id": 6,
+          "name": "Divvyam Arora",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 7,
+          "name": "Esha Mujumdar",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi, my name is Esha and I am a freshman studying computer science. I love to dance and go on walks in my free time."
+        },
+        {
+          "id": 9,
+          "name": "Hazel Lu",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS+Statistics",
+          "semesters": "",
+          "bio": "I am a freshman in Statistics and CS. I really like choral singing and musicals, as well as cozy games with friends. "
+        },
+        {
+          "id": 13,
+          "name": "Janice Mei",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "CS+GGIS",
+          "semesters": "",
+          "bio": "i like coding and making maps (i'm cs+ggis) and dancing :)"
+        },
+        {
+          "id": 16,
+          "name": "Madhav Anand Menon",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS+Physics",
+          "semesters": "",
+          "bio": "Hey! I'm Madhav and I'm a freshman majoring in CS + Physics. I love watching movies, hanging out with my friends and family and learning new things!"
+        },
+        {
+          "id": 19,
+          "name": "Prachod Kakatur",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi! My name is Prachod, and I’m a freshman studying computer science. I’m from Los Angeles, California, but I am a big Seahawks fan as I am originally born and raised in Seattle. I like playing basketball at the CRCE, tennis with friends, and ping pong in the basement."
+        },
+        {
+          "id": 20,
+          "name": "Pranav Virupaksha",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 21,
+          "name": "Prasheetha Bairwa",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi everyone, I'm Pras! I am a freshman studying Computer Science. I really enjoy reading, nature, and math; my areas of interest are AI/ML but I enjoy all aspects of CS. I'm looking forward to meeting everyone and good luck with 124 Honors!"
+        },
+        {
+          "id": 23,
+          "name": "Raaghav Pillai",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Freshman studying Computer Science and Education. I have interest in photography and rock climbing."
+        },
+        {
+          "id": 24,
+          "name": "Ranjani Ramesh",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Junior",
+          "major": "CS",
+          "semesters": "",
+          "bio": "CS major and minoring in Econometrics. My main interests lie in MedTech and Bioinformatics!  I love dogs, music and fashion. "
+        },
+        {
+          "id": 27,
+          "name": "Sahana Sankar",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi, I’m Sahana Sankar, a freshman in Computer Science. I’m excited to be a PM for CS124 Honors this semester! Other than this, I’m part of Women in Computer Science and Society of Women Engineers. I also enjoy watching TV shows, trying new foods(Chipotle’s my favorite), and going on hikes."
+        },
+        {
+          "id": 28,
+          "name": "Shrest Das",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hey! I’m Shrest Das, a freshman majoring in CS from Dallas, Texas. Some of my hobbies include playing chess, singing, and robotics!"
+        },
+        {
+          "id": 32,
+          "name": "Sriram Natarajan",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS+Linguistics",
+          "semesters": "",
+          "bio": "I am currently a freshman studying CS + Linguistics. I'm really into nature, music, and food!"
+        },
+        {
+          "id": 33,
+          "name": "Yash Ejjagiri",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 1,
+          "name": "Aasiya Memon",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 2,
+          "name": "Advait Yadav",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Sophomore",
+          "major": "CS+Math",
+          "semesters": "NA",
+          "bio": "Sophomore, Math and CS. Like doing AI research, running, reading, chess"
+        }
+      ]
     },
     {
-      "id": 36,
-      "name": "Somya Srivastava",
-      "role": "Course Lead",
-      "image": "/images/staff-images/Somya.jpg",
-      "year": "Sophomore",
-      "major": "CS",
-      "semesters": "3",
-      "bio": ""
-    },
-    {
-      "id": 37,
-      "name": "Kedar Manda",
-      "role": "Head Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Junior",
-      "major": "CS+Philosophy",
-      "semesters": "",
-      "bio": ""
-    },
-    {
-      "id": 3,
-      "name": "Anshi Mathur",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Anshi.jpg",
-      "year": "Sophomore",
-      "major": "CS+Statistics",
-      "semesters": "NA",
-      "bio": "I am interested in ML/Data Science and backend development!"
-    },
-    {
-      "id": 4,
-      "name": "Anujay Surana",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Anujay.jpg",
-      "year": "Sophomore",
-      "major": "Math+CS+MCB",
-      "semesters": "NA",
-      "bio": "Big United Fan. Serial Drinker(Water)"
-    },
-    {
-      "id": 5,
-      "name": "Davis Zhang",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Davis.jpg",
-      "year": "Senior",
-      "major": "CS",
-      "semesters": "NA",
-      "bio": "Hello everyone! My name is Davis. I'm a senior studying Computer Science. Outside of classes and research, I love playing tennis and basketball. Feel free to reach out if you have any questions about school, or just want to chat! "
-    },
-    {
-      "id": 10,
-      "name": "Ishaan Chamoli",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Ishaan.jpg",
-      "year": "Sophomore",
-      "major": "CS",
-      "semesters": "NA",
-      "bio": "CS sophomore building AI apps who can't wait to launch his own startup, apply to YC, and loves Sports Climbing - the one place where it's socially acceptable for engineers to face the wall and not interact with anyone ig :')"
-    },
-    {
-      "id": 11,
-      "name": "Jack Wang",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Jack.jpg",
-      "year": "",
-      "major": "",
-      "semesters": "",
-      "bio": "Professional sleeper, occationally code"
-    },
-    {
-      "id": 12,
-      "name": "James Cho",
-      "role": "Project Manager",
-      "image": "/images/staff-images/James.jpg",
-      "year": "",
-      "major": "Statistics and Psychology + CS Minor",
-      "semesters": "",
-      "bio": "Hi, I am a junior majoring in Statistics and Psychology, and minor in Computer Science. I am currently looking for summer internship opportunities 2024-2025. Thank you for lsitening."
-    },
-    {
-      "id": 14,
-      "name": "Kavya Sachdeva",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Kavya.jpg",
-      "year": "Sophomore",
-      "major": "CS+GGIS",
-      "semesters": "3",
-      "bio": "I\u2019m passionate about building software, watching every F1 race, and savoring great food."
-    },
-    {
-      "id": 15,
-      "name": "Keshat Mehra",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Keshat.jpg",
-      "year": "Junior",
-      "major": "Mechanical Engineering",
-      "semesters": "",
-      "bio": "Junior studying Mechanical Engineering with minors in CS & Business. I love playing badminton!"
-    },
-    {
-      "id": 17,
-      "name": "Naina Singh",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Naina.jpg",
-      "year": "Sophomore",
-      "major": "Math+CS",
-      "semesters": "",
-      "bio": "Hi! I'm Naina, a sophomore majoring in Computer Science and Statistics, with a strong interest in the intersection of CS and Finance. This fall will be my second semester as a Project Manager for CS 124 Honors. I'm excited to meet everyone and collaborate on new ideas!"
-    },
-    {
-      "id": 22,
-      "name": "Pritika Aggarwal",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Pritika.jpg",
-      "year": "Sophomore",
-      "major": "CS",
-      "semesters": "",
-      "bio": "CS major who has an unhealthy obsession with cats :P "
-    },
-    {
-      "id": 25,
-      "name": "Roma Chandra",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Roma.jpg",
-      "year": "Junior",
-      "major": "Math+CS",
-      "semesters": "",
-      "bio": "Hi! My name is Roma and I'm a junior majoring in Mathematics & Computer Science and minoring in business. I love cooking, going to the gym, and reading. I also love exploring new cafes/study spots around campus :) super excited to be a PM for 124H this year and to meet everyone!"
-    },
-    {
-      "id": 26,
-      "name": "Sahana Hariharan",
-      "role": "Project Manager",
-      "image": "/images/staff-images/SahanaH.jpg",
-      "year": "Sophomore",
-      "major": "CS+Statistics",
-      "semesters": "",
-      "bio": "Hi! My name is Sahana, and I'm a sophomore studying Statistics + Computer Science. My favorite coding languages are Python and C++, and some of my hobbies include painting and watching movies with my friends. "
-    },
-    {
-      "id": 29,
-      "name": "Shreya Perumalla",
-      "role": "Project Manager",
-      "image": "/images/staff-images/Shreya.jpg",
-      "year": "Sophomore",
-      "major": "CS",
-      "semesters": "",
-      "bio": "sophomore in CS who loves to dance, cook, and drink insane amounts of coffee :)"
-    },
-    {
-      "id": 34,
-      "name": "Yash Jain",
-      "role": "Project Manager",
-      "image": "/images/staff-images/YashJ.jpg",
-      "year": "Senior",
-      "major": "CS",
-      "semesters": "",
-      "bio": "Senior, Computer Science, Poker and Cricket"
-    },
-    {
-      "id": 6,
-      "name": "Divvyam Arora",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "",
-      "semesters": "",
-      "bio": ""
-    },
-    {
-      "id": 7,
-      "name": "Esha Mujumdar",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS",
-      "semesters": "",
-      "bio": "Hi, my name is Esha and I am a freshman studying computer science. I love to dance and go on walks in my free time."
-    },
-    {
-      "id": 9,
-      "name": "Hazel Lu",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS+Statistics",
-      "semesters": "",
-      "bio": "I am a freshman in Statistics and CS. I really like choral singing and musicals, as well as cozy games with friends. "
-    },
-    {
-      "id": 13,
-      "name": "Janice Mei",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "",
-      "major": "CS+GGIS",
-      "semesters": "",
-      "bio": "i like coding and making maps (i'm cs+ggis) and dancing :)"
-    },
-    {
-      "id": 16,
-      "name": "Madhav Anand Menon",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS+Physics",
-      "semesters": "",
-      "bio": "Hey! I'm Madhav and I'm a freshman majoring in CS + Physics. I love watching movies, hanging out with my friends and family and learning new things!"
-    },
-    {
-      "id": 19,
-      "name": "Prachod Kakatur",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS",
-      "semesters": "",
-      "bio": "Hi! My name is Prachod, and I’m a freshman studying computer science. I’m from Los Angeles, California, but I am a big Seahawks fan as I am originally born and raised in Seattle. I like playing basketball at the CRCE, tennis with friends, and ping pong in the basement."
-    },
-    {
-      "id": 20,
-      "name": "Pranav Virupaksha",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "",
-      "major": "",
-      "semesters": "",
-      "bio": ""
-    },
-    {
-      "id": 21,
-      "name": "Prasheetha Bairwa",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS",
-      "semesters": "",
-      "bio": "Hi everyone, I'm Pras! I am a freshman studying Computer Science. I really enjoy reading, nature, and math; my areas of interest are AI/ML but I enjoy all aspects of CS. I'm looking forward to meeting everyone and good luck with 124 Honors!"
-    },
-    {
-      "id": 23,
-      "name": "Raaghav Pillai",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS",
-      "semesters": "",
-      "bio": "Freshman studying Computer Science and Education. I have interest in photography and rock climbing."
-    },
-    {
-      "id": 24,
-      "name": "Ranjani Ramesh",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Junior",
-      "major": "CS",
-      "semesters": "",
-      "bio": "CS major and minoring in Econometrics. My main interests lie in MedTech and Bioinformatics!  I love dogs, music and fashion. "
-    },
-    {
-      "id": 27,
-      "name": "Sahana Sankar",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS",
-      "semesters": "",
-      "bio": "Hi, I’m Sahana Sankar, a freshman in Computer Science. I’m excited to be a PM for CS124 Honors this semester! Other than this, I’m part of Women in Computer Science and Society of Women Engineers. I also enjoy watching TV shows, trying new foods(Chipotle’s my favorite), and going on hikes."
-    },
-    {
-      "id": 28,
-      "name": "Shrest Das",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS",
-      "semesters": "",
-      "bio": "Hey! I’m Shrest Das, a freshman majoring in CS from Dallas, Texas. Some of my hobbies include playing chess, singing, and robotics!"
-    },
-    {
-      "id": 32,
-      "name": "Sriram Natarajan",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Freshman",
-      "major": "CS+Linguistics",
-      "semesters": "",
-      "bio": "I am currently a freshman studying CS + Linguistics. I'm really into nature, music, and food!"
-    },
-    {
-      "id": 33,
-      "name": "Yash Ejjagiri",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "",
-      "major": "",
-      "semesters": "",
-      "bio": ""
-    },
-    {
-      "id": 1,
-      "name": "Aasiya Memon",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "",
-      "major": "",
-      "semesters": "",
-      "bio": ""
-    },
-    {
-      "id": 2,
-      "name": "Advait Yadav",
-      "role": "Project Manager",
-      "image": "/images/staff-images/default_pfp.png",
-      "year": "Sophomore",
-      "major": "CS+Math",
-      "semesters": "NA",
-      "bio": "Sophomore, Math and CS. Like doing AI research, running, reading, chess"
+      "semester": "Spring 2025",
+      "staff": [
+        {
+          "id": 35,
+          "name": "Dhanish Natarajan",
+          "role": "Course Lead",
+          "image": "/images/staff-images/Dhanish.jpg",
+          "year": "Sophomore",
+          "major": "CS+Statistics",
+          "semesters": "3",
+          "bio": ""
+        },
+        {
+          "id": 36,
+          "name": "Somya Srivastava",
+          "role": "Course Lead",
+          "image": "/images/staff-images/Somya.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "3",
+          "bio": ""
+        },
+        {
+          "id": 37,
+          "name": "Kedar Manda",
+          "role": "Head Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Junior",
+          "major": "CS+Philosophy",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 3,
+          "name": "Anshi Mathur",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Anshi.jpg",
+          "year": "Sophomore",
+          "major": "CS+Statistics",
+          "semesters": "NA",
+          "bio": "I am interested in ML/Data Science and backend development!"
+        },
+        {
+          "id": 4,
+          "name": "Anujay Surana",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Anujay.jpg",
+          "year": "Sophomore",
+          "major": "Math+CS+MCB",
+          "semesters": "NA",
+          "bio": "Big United Fan. Serial Drinker(Water)"
+        },
+        {
+          "id": 5,
+          "name": "Davis Zhang",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Davis.jpg",
+          "year": "Senior",
+          "major": "CS",
+          "semesters": "NA",
+          "bio": "Hello everyone! My name is Davis. I'm a senior studying Computer Science. Outside of classes and research, I love playing tennis and basketball. Feel free to reach out if you have any questions about school, or just want to chat! "
+        },
+        {
+          "id": 10,
+          "name": "Ishaan Chamoli",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Ishaan.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "NA",
+          "bio": "CS sophomore building AI apps who can't wait to launch his own startup, apply to YC, and loves Sports Climbing - the one place where it's socially acceptable for engineers to face the wall and not interact with anyone ig :')"
+        },
+        {
+          "id": 11,
+          "name": "Jack Wang",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Jack.jpg",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": "Professional sleeper, occationally code"
+        },
+        {
+          "id": 12,
+          "name": "James Cho",
+          "role": "Project Manager",
+          "image": "/images/staff-images/James.jpg",
+          "year": "",
+          "major": "Statistics and Psychology + CS Minor",
+          "semesters": "",
+          "bio": "Hi, I am a junior majoring in Statistics and Psychology, and minor in Computer Science. I am currently looking for summer internship opportunities 2024-2025. Thank you for lsitening."
+        },
+        {
+          "id": 14,
+          "name": "Kavya Sachdeva",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Kavya.jpg",
+          "year": "Sophomore",
+          "major": "CS+GGIS",
+          "semesters": "3",
+          "bio": "I\u2019m passionate about building software, watching every F1 race, and savoring great food."
+        },
+        {
+          "id": 15,
+          "name": "Keshat Mehra",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Keshat.jpg",
+          "year": "Junior",
+          "major": "Mechanical Engineering",
+          "semesters": "",
+          "bio": "Junior studying Mechanical Engineering with minors in CS & Business. I love playing badminton!"
+        },
+        {
+          "id": 17,
+          "name": "Naina Singh",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Naina.jpg",
+          "year": "Sophomore",
+          "major": "Math+CS",
+          "semesters": "",
+          "bio": "Hi! I'm Naina, a sophomore majoring in Computer Science and Statistics, with a strong interest in the intersection of CS and Finance. This fall will be my second semester as a Project Manager for CS 124 Honors. I'm excited to meet everyone and collaborate on new ideas!"
+        },
+        {
+          "id": 22,
+          "name": "Pritika Aggarwal",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Pritika.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "",
+          "bio": "CS major who has an unhealthy obsession with cats :P "
+        },
+        {
+          "id": 25,
+          "name": "Roma Chandra",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Roma.jpg",
+          "year": "Junior",
+          "major": "Math+CS",
+          "semesters": "",
+          "bio": "Hi! My name is Roma and I'm a junior majoring in Mathematics & Computer Science and minoring in business. I love cooking, going to the gym, and reading. I also love exploring new cafes/study spots around campus :) super excited to be a PM for 124H this year and to meet everyone!"
+        },
+        {
+          "id": 26,
+          "name": "Sahana Hariharan",
+          "role": "Project Manager",
+          "image": "/images/staff-images/SahanaH.jpg",
+          "year": "Sophomore",
+          "major": "CS+Statistics",
+          "semesters": "",
+          "bio": "Hi! My name is Sahana, and I'm a sophomore studying Statistics + Computer Science. My favorite coding languages are Python and C++, and some of my hobbies include painting and watching movies with my friends. "
+        },
+        {
+          "id": 29,
+          "name": "Shreya Perumalla",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Shreya.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "",
+          "bio": "sophomore in CS who loves to dance, cook, and drink insane amounts of coffee :)"
+        },
+        {
+          "id": 34,
+          "name": "Yash Jain",
+          "role": "Project Manager",
+          "image": "/images/staff-images/YashJ.jpg",
+          "year": "Senior",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Senior, Computer Science, Poker and Cricket"
+        },
+        {
+          "id": 6,
+          "name": "Divvyam Arora",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 7,
+          "name": "Esha Mujumdar",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi, my name is Esha and I am a freshman studying computer science. I love to dance and go on walks in my free time."
+        },
+        {
+          "id": 9,
+          "name": "Hazel Lu",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS+Statistics",
+          "semesters": "",
+          "bio": "I am a freshman in Statistics and CS. I really like choral singing and musicals, as well as cozy games with friends. "
+        },
+        {
+          "id": 13,
+          "name": "Janice Mei",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "CS+GGIS",
+          "semesters": "",
+          "bio": "i like coding and making maps (i'm cs+ggis) and dancing :)"
+        },
+        {
+          "id": 16,
+          "name": "Madhav Anand Menon",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS+Physics",
+          "semesters": "",
+          "bio": "Hey! I'm Madhav and I'm a freshman majoring in CS + Physics. I love watching movies, hanging out with my friends and family and learning new things!"
+        },
+        {
+          "id": 19,
+          "name": "Prachod Kakatur",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi! My name is Prachod, and I’m a freshman studying computer science. I’m from Los Angeles, California, but I am a big Seahawks fan as I am originally born and raised in Seattle. I like playing basketball at the CRCE, tennis with friends, and ping pong in the basement."
+        },
+        {
+          "id": 20,
+          "name": "Pranav Virupaksha",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 21,
+          "name": "Prasheetha Bairwa",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi everyone, I'm Pras! I am a freshman studying Computer Science. I really enjoy reading, nature, and math; my areas of interest are AI/ML but I enjoy all aspects of CS. I'm looking forward to meeting everyone and good luck with 124 Honors!"
+        },
+        {
+          "id": 23,
+          "name": "Raaghav Pillai",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Freshman studying Computer Science and Education. I have interest in photography and rock climbing."
+        },
+        {
+          "id": 24,
+          "name": "Ranjani Ramesh",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Junior",
+          "major": "CS",
+          "semesters": "",
+          "bio": "CS major and minoring in Econometrics. My main interests lie in MedTech and Bioinformatics!  I love dogs, music and fashion. "
+        },
+        {
+          "id": 27,
+          "name": "Sahana Sankar",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hi, I’m Sahana Sankar, a freshman in Computer Science. I’m excited to be a PM for CS124 Honors this semester! Other than this, I’m part of Women in Computer Science and Society of Women Engineers. I also enjoy watching TV shows, trying new foods(Chipotle’s my favorite), and going on hikes."
+        },
+        {
+          "id": 28,
+          "name": "Shrest Das",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS",
+          "semesters": "",
+          "bio": "Hey! I’m Shrest Das, a freshman majoring in CS from Dallas, Texas. Some of my hobbies include playing chess, singing, and robotics!"
+        },
+        {
+          "id": 32,
+          "name": "Sriram Natarajan",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Freshman",
+          "major": "CS+Linguistics",
+          "semesters": "",
+          "bio": "I am currently a freshman studying CS + Linguistics. I'm really into nature, music, and food!"
+        },
+        {
+          "id": 33,
+          "name": "Yash Ejjagiri",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 1,
+          "name": "Aasiya Memon",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "",
+          "major": "",
+          "semesters": "",
+          "bio": ""
+        },
+        {
+          "id": 2,
+          "name": "Advait Yadav",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Sophomore",
+          "major": "CS+Math",
+          "semesters": "NA",
+          "bio": "Sophomore, Math and CS. Like doing AI research, running, reading, chess"
+        }
+      ]
     }
   ]
 }

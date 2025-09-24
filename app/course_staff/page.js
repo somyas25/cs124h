@@ -7,6 +7,7 @@ import "../../styles/CourseStaff.css";
 export default function Home() {
   const [staffMembers, setStaffMembers] = useState([]);
   const [selectedMember, setSelectedMember] = useState(null);
+  const [selectedSemesterIndex, setSelectedSemesterIndex] = useState(0);
 
   useEffect(() => {
     import("../../data/staff_data.json").then((data) => {
@@ -30,9 +31,23 @@ export default function Home() {
             Our Staff
           </h1>
         </div>
-        
+
+        <div className="tabsContainer">
+          {staffMembers.map((semesterData, index) => (
+            <button
+              key={semesterData.semester}
+              onClick={() => setSelectedSemesterIndex(index)}
+              className={`tabButton ${
+                selectedSemesterIndex === index ? "activeTab" : ""
+              }`}
+            >
+              {semesterData.semester}
+            </button>
+          ))}
+        </div>
+
         <div className={`staff-card-container ${selectedMember ? "opacity-20" : "opacity-100"}`}>
-          {staffMembers.map((member) => (
+          {staffMembers[selectedSemesterIndex].staff.map((member) => (
             <div
               className="staff-card-box"
               key={member.id}
