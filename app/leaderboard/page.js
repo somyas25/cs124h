@@ -4,15 +4,15 @@ import styles from "../../styles/Leaderboard.module.css";
 import Navbar from "../../components/navbar";
 import { getGroupPointsSummary } from "./leaderboard_supabase";
 
-const groups = [
-  { rank: 1, name: "Group 1: DOMinators", points: 90 },
-  { rank: 2, name: "Group 10: Swift & Steady", points: 80 },
-  { rank: 3, name: "Group 7: The Dev-iators", points: 65 },
-  { rank: 4, name: "Group 13: Hack Overflow", points: 40 },
-  { rank: 5, name: "Group 3: Cookie Bytes", points: 30 },
-  { rank: 6, name: "Group 8: Stack Breakers", points: 25 },
-  { rank: 7, name: "Group 2: HiHihihi", points: 20 },
-];
+// const groups = [
+//   { rank: 1, name: "Group 1: DOMinators", points: 90 },
+//   { rank: 2, name: "Group 10: Swift & Steady", points: 80 },
+//   { rank: 3, name: "Group 7: The Dev-iators", points: 65 },
+//   { rank: 4, name: "Group 13: Hack Overflow", points: 40 },
+//   { rank: 5, name: "Group 3: Cookie Bytes", points: 30 },
+//   { rank: 6, name: "Group 8: Stack Breakers", points: 25 },
+//   { rank: 7, name: "Group 2: HiHihihi", points: 20 },
+// ];
 
 export default function Leaderboard() {
   const [visibleCount, setVisibleCount] = useState(4);
@@ -29,10 +29,10 @@ export default function Leaderboard() {
   
 
   const handleToggle = () => {
-    if (visibleCount === groups.length) {
+    if (visibleCount === leaderboardData.length) {
       setVisibleCount(4); // Collapse
     } else {
-      setVisibleCount(groups.length); // Show all
+      setVisibleCount(leaderboardData.length); // Show all
     }
   };
 
@@ -65,7 +65,7 @@ export default function Leaderboard() {
         </div>
 
         <button className={styles.moreButton} onClick={handleToggle}>
-          {visibleCount === groups.length ? "Show Less" : "Show More"}
+          {visibleCount === leaderboardData.length ? "Show Less" : "Show More"}
         </button>
       </div>
     </>
