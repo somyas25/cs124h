@@ -18,7 +18,8 @@ export default function Home() {
             students.
           </p>
           <div className="button-container">
-            <a
+            {/* TODO: update Syllabus links */}
+            {/* <a
               href="https://docs.google.com/document/d/1ymXgTRhm6I0bClRsU2X8kC4IvOF-kzIcOPiNUwxlkGQ/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
@@ -28,7 +29,7 @@ export default function Home() {
             </a>
             <a href="#register" className="register-button">
               Register Now
-            </a>
+            </a> */}
           </div>
         </div>
       </main>
@@ -49,7 +50,8 @@ export default function Home() {
             project to life from start to finish!
           </p>
 
-          <div className="video-wrapper">
+          {/* TODO: update with new intro video for Spring 2026*/}
+          {/* <div className="video-wrapper">
             <iframe
               width="100%"
               height="400"
@@ -59,7 +61,7 @@ export default function Home() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-          </div>
+          </div> */}
 
           <br></br>
           <br></br>
@@ -70,7 +72,12 @@ export default function Home() {
 
           <h2 id="register">How To Register</h2>
           <br />
-          <h3>Step 1:</h3>
+          
+          {/* TODO: comment this out */}
+          <p>To be announced! Please check back later.</p>
+
+          {/* TODO: update links and uncomment this */}
+          {/* <h3>Step 1:</h3>
           <h4>If You’re a James Scholar:</h4>
           <p>
             If you are a James Scholar or are taking the course for honors
@@ -115,7 +122,7 @@ export default function Home() {
             <a href="https://discord.com/invite/YMtdnBdsup">
               https://discord.com/invite/YMtdnBdsup
             </a>
-          </p>
+          </p> */}
 
           <br />
           <br />
@@ -123,7 +130,7 @@ export default function Home() {
           <br />
           <br />
           <p>
-            Questions? Contact dhanish2@illinois.edu or somyas3@illinois.edu
+            Questions? Contact aasiyam2@illinois.edu or aryan15@illinois.edu
           </p>
         </div>
       </section>

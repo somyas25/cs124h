@@ -18,23 +18,24 @@ export default function Leaderboard() {
   const [visibleCount, setVisibleCount] = useState(4);
   const [leaderboardData, setLeaderboardData] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const newLeaderboardData = await getGroupPointsSummary();
-      setLeaderboardData(newLeaderboardData || []);
-    }
+  {/* TODO: uncomment when new leaderboard db is ready */}
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const newLeaderboardData = await getGroupPointsSummary();
+  //     setLeaderboardData(newLeaderboardData || []);
+  //   }
 
-    fetchData()
-  }, []) // empty dependency array => runs on mount
+  //   fetchData()
+  // }, []) // empty dependency array => runs on mount
   
 
-  const handleToggle = () => {
-    if (visibleCount === leaderboardData.length) {
-      setVisibleCount(4); // Collapse
-    } else {
-      setVisibleCount(leaderboardData.length); // Show all
-    }
-  };
+  // const handleToggle = () => {
+  //   if (visibleCount === leaderboardData.length) {
+  //     setVisibleCount(4); // Collapse
+  //   } else {
+  //     setVisibleCount(leaderboardData.length); // Show all
+  //   }
+  // };
 
   return (
     <>
@@ -47,6 +48,10 @@ export default function Leaderboard() {
           </span>
         </h1>
 
+          {/* TODO: uncomment when new leaderboard db is ready */}
+
+          <p>Coming Soon...🤖</p>
+{/* 
         <div className={styles.groupList}>
           {leaderboardData.slice(0, visibleCount).map((group, index) => (
             <div
@@ -66,7 +71,7 @@ export default function Leaderboard() {
 
         <button className={styles.moreButton} onClick={handleToggle}>
           {visibleCount === leaderboardData.length ? "Show Less" : "Show More"}
-        </button>
+        </button> */}
       </div>
     </>
   );
