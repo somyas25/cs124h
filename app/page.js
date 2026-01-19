@@ -19,8 +19,8 @@ export default function Home() {
           </p>
           <div className="button-container">
             {/* TODO: update Syllabus links */}
-            {/* <a
-              href="https://docs.google.com/document/d/1ymXgTRhm6I0bClRsU2X8kC4IvOF-kzIcOPiNUwxlkGQ/edit?usp=sharing"
+            <a
+              href="https://docs.google.com/document/d/1lHpa58z_1aBfJp9-xF67Vrtl1iysw3ND2Mznd1p1hyY/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="syllabus-button"
@@ -29,7 +29,7 @@ export default function Home() {
             </a>
             <a href="#register" className="register-button">
               Register Now
-            </a> */}
+            </a>
           </div>
         </div>
       </main>
@@ -77,7 +77,7 @@ export default function Home() {
           <p>To be announced! Please check back later.</p>
 
           {/* TODO: update links and uncomment this */}
-          {/* <h3>Step 1:</h3>
+          <h3>Step 1:</h3>
           <h4>If You’re a James Scholar:</h4>
           <p>
             If you are a James Scholar or are taking the course for honors
@@ -92,7 +92,7 @@ export default function Home() {
           <h4>If You’re Not a James Scholar:</h4>
           <p>
             If you are not a James Scholar or not taking the course for honors
-            credit, you should enroll in CS 199 124 (CRN: 67084) on
+            credit, you should enroll in CS 199 124 (CRN: 54574) on
             self-service. The course is zero credit hours and S (satisfactory) /
             U (unsatisfactory) graded, but you will need to participate to earn
             the S grade!
@@ -104,8 +104,8 @@ export default function Home() {
           <h3>Step 2:</h3>
           <p>
             Please fill in the enrollment confirmation form:{" "}
-            <a href="https://forms.gle/86sNBypWGiVsjtFn6">
-              https://forms.gle/86sNBypWGiVsjtFn6.
+            <a href="https://forms.gle/WbRu3s2gcwAHacdT9">
+            https://forms.gle/WbRu3s2gcwAHacdT9.
             </a>{" "}
             <span className="imp-text">
               Failure to fill in the enrollment confirmation form will result in
@@ -119,10 +119,10 @@ export default function Home() {
           <h3>Step 3:</h3>
           <p>
             Join the Discord:{" "}
-            <a href="https://discord.com/invite/YMtdnBdsup">
-              https://discord.com/invite/YMtdnBdsup
+            <a href="https://discord.gg/yFWdHqax9A">
+            https://discord.gg/yFWdHqax9A
             </a>
-          </p> */}
+          </p>
 
           <br />
           <br />
