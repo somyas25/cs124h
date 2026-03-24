@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "semester": "Fall 2025",
+      "semester": "Spring 2026",
       "staff": [
         {
-          "id": 22,
-          "name": "Aasiya",
+          "id": 1,
+          "name": "Aasiya Memon",
           "role": "Course Lead",
           "image": "/images/staff-images/default_pfp.png",
           "year": "Sophomore",
@@ -15,8 +15,8 @@
           "email": "aasiyam2@illinois.edu"
         },
         {
-          "id": 21,
-          "name": "Aryan",
+          "id": 2,
+          "name": "Aryan Aryan",
           "role": "Course Lead",
           "image": "/images/staff-images/Aryan.jpeg",
           "year": "Sophomore",
@@ -26,7 +26,7 @@
           "email": "aryan15@illinois.edu"
         },
         {
-          "id": 18,
+          "id": 3,
           "name": "Anakin Tran",
           "role": "Head Project Manager",
           "image": "/images/staff-images/default_pfp.png",
@@ -35,6 +35,238 @@
           "semesters": "1",
           "bio": "Hi everyone! I'm a sophomore in Information Sciences + Data Science. When I'm not in class, I like to play sports, watch movies, and cook new recipes. I'm open to questions, so don't be a stranger!",
           "email": "atran63@illinois.edu"
+        },
+        {
+          "id": 4,
+          "name": "Medhansh Garg",
+          "role": "Lead Web Developer",
+          "image": "/images/staff-images/Medhansh.png",
+          "year": "Junior",
+          "major": "Computer Engineering",
+          "semesters": "1",
+          "bio": "Passionate about cyber security and web development. I enjoy all things tech and love to play sports and watch movies.",
+          "email": "mg90@illinois.edu"
+        },
+        {
+          "id": 29,
+          "name": "Dhanish Natarajan",
+          "role": "Web Developer",
+          "image": "/images/staff-images/Dhanish.jpg",
+          "year": "Junior",
+          "major": "CS+Statistics",
+          "semesters": "2",
+          "bio": "Hey, I'm Dhanish. In my free time I love spending time with people, hiking, biking, and traveling! I love meeting new people, so feel free to reach out!"
+        },
+        {
+          "id": 7,
+          "name": "Advait Yadav",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Advait.jpeg",
+          "year": "Junior",
+          "major": "Math and CS",
+          "semesters": "2",
+          "bio": "Hi! I'm a junior majoring in Math and CS. I like to read, hike, and play volleyball/badminton.",
+          "email": "advaity2@illinois.edu"
+        },
+        {
+          "id": 8,
+          "name": "Naina Singh",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Naina.JPG",
+          "year": "Junior",
+          "major": "Computer Science and Statistics",
+          "semesters": "2",
+          "bio": "Hi, I'm Naina! Apart from coding, I enjoy Statistics and solving brain teasers. I'm also a self-proclaimed coffee connoisseur and love exploring new cafes:)",
+          "email": "naina3@illinois.edu"
+        },
+        {
+          "id": 9,
+          "name": "Sriram Natarajan",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Sriram.png",
+          "year": "Sophomore",
+          "major": "Computer Science + Linguistics",
+          "semesters": "2",
+          "bio": "Hi, I'm Sriram and I am a Computer Science + Linguistics major. I love basketball, music, and the outdoors!",
+          "email": "sriram6@illinois.edu"
+        },
+        {
+          "id": 11,
+          "name": "Shrest Das",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Shrest.JPG",
+          "year": "Sophomore",
+          "major": "Computer Science",
+          "semesters": "3",
+          "bio": "Hi! I'm Shrest! I'm a sophomore from Dallas, Texas studing computer science. Some of my hobbies include chess, robotics, and watching good movies/shows!",
+          "email": "shrestd2@illinois.edu"
+        },
+        {
+          "id": 12,
+          "name": "William Lei",
+          "role": "Project Manager",
+          "image": "/images/staff-images/William.jpg",
+          "year": "Sophomore",
+          "major": "CS + Music",
+          "semesters": "2",
+          "bio": "My interests include game dev, audio/music computation, among others. Outside of CS, I like longboarding, playing bass guitar, horticulture, cooking, making clothes, and more.",
+          "email": "wllei2@illinois.edu"
+        },
+        {
+          "id": 13,
+          "name": "Madhav Anand Menon",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Sophomore",
+          "major": "CS + Physics",
+          "semesters": "2",
+          "bio": "Hey! I'm Madhav and I'm a sophomore majoring in CS + Physics. I love watching movies, hanging out with my friends and family and learning new things!",
+          "email": "madhav4@illinois.edu"
+        },
+        {
+          "id": 14,
+          "name": "Shreya Perumalla",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Shreya.JPG",
+          "year": "Junior",
+          "major": "Computer Science",
+          "semesters": "3",
+          "bio": "Junior in CS who loves to dance, cook, and drink insane amounts of coffee :)",
+          "email": "speru4@illinois.edu"
+        },
+        {
+          "id": 17,
+          "name": "Sahana Hariharan",
+          "role": "Project Manager",
+          "image": "/images/staff-images/SahanaH.jpg",
+          "year": "Junior",
+          "major": "Statistics & Computer Science",
+          "semesters": "3",
+          "bio": "Hi! My name is Sahana, and I'm a junior studying Statistics + Computer Science. My favorite coding languages are Python and C++, and some of my hobbies include painting and watching movies with my friends.",
+          "email": "sahanah2@illinois.edu"
+        },
+        {
+          "id": 20,
+          "name": "Lily Liu",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Lily.JPEG",
+          "year": "Sophomore",
+          "major": "Statistics and Computer Science",
+          "semesters": "2",
+          "bio": "Lily Liu is a sophomore studying CS + Statistics at UIUC, originally from Aurora, IL. On campus, she's involved with CS SAIL, Women in Statistics, and the Alpha Omega Epsilon Engineering Sorority. Passionate about artificial intelligence, Lily previously conducted machine learning research on non-invasive endometriosis diagnosis through UCSF AI4ALL, where she also served as a Teaching Assistant mentoring students in AI projects. Beyond academics, advocates for women and nonbinary students in STEM and loves to spend a lot of time with friends and family.",
+          "email": "lilyl4@illinois.edu"
+        },
+        {
+          "id": 24,
+          "name": "Prachod Kakatur",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Prachod.jpeg",
+          "year": "Sophomore",
+          "major": "Computer Science",
+          "semesters": "3",
+          "bio": "Hi! My name is Prachod, and I'm a sophomore studying computer science. I'm from Los Angeles, California, but I am a big Seahawks fan as I am originally born and raised in Seattle. I like playing basketball at the CRCE, tennis with friends, and ping pong in the basement.",
+          "email": "kakatur2@illinois.edu"
+        },
+        {
+          "id": 26,
+          "name": "Keshat Mehra",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Keshat.jpeg",
+          "year": "Senior",
+          "major": "Mechanical Engineering",
+          "semesters": "2",
+          "bio": "Senior studying Mechanical Engineering with minors in CS & Business. I love playing badminton!",
+          "email": "kdmehra2@illinois.edu"
+        },
+        {
+          "id": 27,
+          "name": "Taniya Agrawal",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Taniya.jpg",
+          "year": "Sophomore",
+          "major": "Computer Science",
+          "semesters": "2",
+          "bio": "Hey everyone! I'm Taniya, and I'm a sophomore majoring in Computer Science, especially interested in cybersecurity....you can probably LinkedIn stalk if u wanna find more info about my school and professional life 😭 but outside of school and work, I enjoy working out, love hanging out with friends and family, and trying new food places! 😋",
+          "email": "taniyaa2@illinois.edu"
+        },
+        {
+          "id": 28,
+          "name": "Janice Mei",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Janice.jpeg",
+          "year": "Senior",
+          "major": "Computer Science + Geography & Geographic Information Science",
+          "semesters": "3",
+          "bio": "Hi! I'm Janice, a senior studying CS + Geographic & GIS with a minor Statistics :) My main hobby is dance; I especially love open-style and traditional Chinese dance!",
+          "email": "jmei52@illinois.edu"
+        },
+        {
+          "id": 30,
+          "name": "Annette Li",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Annette.jpeg",
+          "year": "Freshman",
+          "major": "CS + Advertising",
+          "semesters": "1",
+          "bio": "Hi! I'm Annette, and I'm passionate about creativity and technology. I love video editing, photography, and game dev!",
+          "email": "annette9@illinois.edu"
+        },
+        {
+          "id": 31,
+          "name": "Darsh Poddar",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Darsh.png",
+          "year": "Freshman",
+          "major": "Information Sciences + Data Science",
+          "semesters": "1",
+          "bio": "I enjoy meeting new people and look forward to getting to know you!",
+          "email": "darshp3@illinois.edu"
+        },
+        {
+          "id": 32,
+          "name": "Eva Noftz",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Eva.jpg",
+          "year": "Freshman",
+          "major": "Computer Science",
+          "semesters": "1",
+          "bio": "I love to play the guitar and make my own jewelry and keychains during my free time!",
+          "email": "enoftz2@illinois.edu"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2025",
+      "staff": [
+        {
+          "id": 35,
+          "name": "Dhanish Natarajan",
+          "role": "Course Lead",
+          "image": "/images/staff-images/Dhanish.jpg",
+          "year": "Sophomore",
+          "major": "CS+Statistics",
+          "semesters": "3",
+          "bio": ""
+        },
+        {
+          "id": 36,
+          "name": "Somya Srivastava",
+          "role": "Course Lead",
+          "image": "/images/staff-images/Somya.jpg",
+          "year": "Sophomore",
+          "major": "CS",
+          "semesters": "3",
+          "bio": ""
+        },
+        {
+          "id": 37,
+          "name": "Kedar Manda",
+          "role": "Head Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Junior",
+          "major": "CS+Philosophy",
+          "semesters": "",
+          "bio": ""
         },
         {
           "id": 4,
@@ -48,14 +280,37 @@
           "email": "mg90@illinois.edu"
         },
         {
-          "id": 1,
-          "name": "Dhanish Natarajan",
-          "role": "Web Developer",
-          "image": "/images/staff-images/Dhanish.jpg",
-          "year": "Junior",
-          "major": "CS+Statistics",
-          "semesters": "2",
-          "bio": ""
+          "id": 22,
+          "name": "Aasiya",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Sophomore",
+          "major": "Computer Science + Music",
+          "semesters": "1",
+          "bio": "",
+          "email": "aasiyam2@illinois.edu"
+        },
+        {
+          "id": 21,
+          "name": "Aryan",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Aryan.jpeg",
+          "year": "Sophomore",
+          "major": "Electrical Engineering",
+          "semesters": "1",
+          "bio": "I'm a Sophomore studying Electrical Engineering. I love to play all kinds of sports!",
+          "email": "aryan15@illinois.edu"
+        },
+        {
+          "id": 18,
+          "name": "Anakin Tran",
+          "role": "Project Manager",
+          "image": "/images/staff-images/default_pfp.png",
+          "year": "Sophomore",
+          "major": "Information Sciences + Data Science",
+          "semesters": "1",
+          "bio": "Hi everyone! I'm a sophomore in Information Sciences + Data Science. When I'm not in class, I like to play sports, watch movies, and cook new recipes. I'm open to questions, so don't be a stranger!",
+          "email": "atran63@illinois.edu"
         },
         {
           "id": 5,
@@ -130,7 +385,7 @@
           "image": "/images/staff-images/Shrest.JPG",
           "year": "Sophomore",
           "major": "Computer Science",
-          "semesters": "1",
+          "semesters": "2",
           "bio": "Hi! I'm Shrest! I'm a sophomore from Dallas, Texas studing computer science. Some of my hobbies include chess, robotics, and watching good movies/shows!",
           "email": "shrestd2@illinois.edu"
         },
@@ -331,7 +586,7 @@
           "year": "Sophomore",
           "major": "CS+Statistics",
           "semesters": "NA",
-          "bio": "I am interested in ML/Data Science and backend development!"
+          "bio": "PM for 3 previous semsters! Hi! My name is Anshi and I am a senior studying Stats+CS. I am interested in machine learning and its applications into various industries. Outside of class, I enjoy gaming and playing badminton!"
         },
         {
           "id": 4,
