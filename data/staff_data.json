@@ -58,6 +58,16 @@
           "bio": "Hey, I'm Dhanish. In my free time I love spending time with people, hiking, biking, and traveling! I love meeting new people, so feel free to reach out!"
         },
         {
+          "id": 33,
+          "name": "Anshi Mathur",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Anshi.jpg",
+          "year": "Sophomore",
+          "major": "CS+Statistics",
+          "semesters": "4",
+          "bio": "PM for 4 previous semsters! Hi! My name is Anshi and I am a senior studying Stats+CS. I am interested in machine learning and its applications into various industries. Outside of class, I enjoy gaming and playing badminton!"
+        },
+        {
           "id": 7,
           "name": "Advait Yadav",
           "role": "Project Manager",
@@ -232,6 +242,17 @@
           "semesters": "1",
           "bio": "I love to play the guitar and make my own jewelry and keychains during my free time!",
           "email": "enoftz2@illinois.edu"
+        },
+        {
+          "id": 34,
+          "name": "Santino Schrieber",
+          "role": "Project Manager",
+          "image": "/images/staff-images/Santino.PNG",
+          "year": "Sophomore",
+          "major": "Economics",
+          "semesters": "2",
+          "bio": "My name is Santino and I am from Chicago. In my free time I enjoy training Brazilian ju-jitsu, playing video games, and attending reptile conventions.",
+          "email": "santino7@illinois.edu"
         }
       ]
     },
